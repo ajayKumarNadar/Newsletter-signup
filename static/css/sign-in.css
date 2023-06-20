@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  background-color: azure;
+}
+main {
+  border: 1.5px solid rgba(128, 128, 128, 0.556);
+  border-radius: 10px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin form div.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[name="first-name"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[name="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
